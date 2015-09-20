@@ -18,7 +18,8 @@ class Migration_Add_Custom_Settings extends CI_Migration {
 				'null' => TRUE,
 			),
 			'custom_value' => array(
-				'type' => 'TEXT',
+				'type' => 'VARCHAR',
+				'constraint' => 255,
 				'null' => TRUE,
 			),
 			'status' => array(
