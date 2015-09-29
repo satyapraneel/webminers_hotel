@@ -7,9 +7,9 @@ class Custom_Setting_model extends CI_Model {
 	}
 
 	public function get_custom_values($custom_name) {
-		$this->db->where('custom_name', $custom_name);
-		$query = $this->db->get('custom_settings');
-		$result = $query->row();
-		return $result->custom_value ?: '';
+		//$this->db->where('custom_name', $custom_name);
+		//$query = $this->db->get('custom_settings');
+		//$result = $query->row();
+		return  '';
 	}
 }
